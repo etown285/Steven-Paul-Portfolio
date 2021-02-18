@@ -1,0 +1,58 @@
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header { 
+    background-image: url("Woodbackground.jpg");
+    max-height: 768px;
+    padding: 5px;
+    color:white
+}
+
+.nav ul {
+    position: relative;
+    text-size-adjust: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #222;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
+    color: white;
+    overflow: hidden;
+    list-style-type: none;
+}
+
+section article { 
+    padding: 8px;
+}
+
+.aboutme {
+    border: 4px solid black;
+    display: flex;
+    background-color: violet;
+    padding:inherit;
+    padding: 4px;
+    padding-left: 2px;
+    width: 1400px;
+}
+
+.projects {
+    border: 4px solid black;
+    display: flex;
+    background-color: violet;
+    padding:inherit;
+    padding: 4px;
+    padding-left: 2px;
+    width: 1400px;
+}
+
+.hobbies {
+    border: 4px solid black;
+    display: flex;
+    background-color: violet;
+    padding:inherit;
+    padding: 4px;
+    padding-left: 2px;
+    width: 1400px;
+}
