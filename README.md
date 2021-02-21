@@ -25,11 +25,6 @@ Creating a personal portfolio for those that are interested in my current and fu
 
 * GitHub Repository URL: (https://github.com/etown285/Steven-Paul-Portfolio)
 
-
-Credits
-
-    
-
 License
 
 Copyright (c) [2021] [Steven Paul]
