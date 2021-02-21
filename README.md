@@ -14,6 +14,10 @@ Creating a personal portfolio for those that are interested in my current and fu
 * Created root element to created consistent styling within the page. 
 * Displayed projects section with completed projects and futures ones that I am currently working on. 
 
+## Usage  
+
+![Screenshot]()
+
 Links
 
     Application URL: (https://etown285.github.io/Steven-Paul-Portfolio/)
