@@ -1,6 +1,14 @@
+/* Managed Color Schemes for the page*/
+:root {
+  --darkblue: #123c73;
+  --lightblue: #1AA3D9;
+  --red:#F20530;
+  --navcolor: #b9c6ae;
+}
+
 /*Set the background color and found for the page*/
 body {
-    background-color: #123c73;
+    background-color: var(--darkblue);
     font-size: 1em;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -45,9 +53,8 @@ nav ul {
     justify-content: space-between;
     font-size: 1.2em;
     padding: 1.25em;
-    background-color: #222;
-    box-shadow: 0 .25em 1em 0 rgba(0, 0, 0, 0.25);
-    color: #1AA3D9;
+    background-color: #F20530;
+    box-shadow: 0 .25em 1em 0 rgba(0, 0, 0, 1);
     overflow: hidden;
     list-style-type: none;
     text-decoration: none;
@@ -59,40 +66,46 @@ a {
     color: white;
 }
 
+/*Styled article borders and margins */
 .articleborder {
-    border: .25em solid lightblue;
+    border: .25em solid #1AA3D9;
     background-color: white;
     margin: 1em 1em 1em 1em;
     padding:inherit;
     font-size: 1.2em;
+    box-shadow: 0 .25em 1em 0 rgba(0, 0, 0, 0.25);
 }
 
 
-.main {
-    max-width: 1000px;
-    margin: auto;
-  }
-  
+/*Set Font Size for Header*/
   h1 {
-    font-size: 50px;
-    word-break: break-all;
+    font-size: 1.4em;
   }
   
   .row {
-    margin: 8px -16px;
+    margin: 1.4em;
   }
   
-  /* Add padding BETWEEN each column (if you want) */
+  /* Added padding between the rows and columns*/
   .row,
   .row > .column {
-    padding: 2em;
+    padding: 1em;
   }
   
-  /* Create four equal columns that floats next to each other */
+  /* Centered additional projects */
   .column {
     display: inline-block;
     text-align: center;
     width: 25%;
+  }
+  
+  .column:hover {
+    background-color: var(--darkblue);
+    opacity: 60%;
+  }
+
+  .code:hover { 
+    opacity: 60%;
   }
   
   /* Clear floats after rows */
@@ -108,14 +121,14 @@ a {
     padding: 10px;
   }
   
-  /* Responsive layout - makes a two column-layout instead of four columns */
+  /* Creates two coloums when width is under 900px */
   @media screen and (max-width: 900px) {
     .column {
       width: 50%;
     }
   }
   
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  /* Columns stack under 600px */
   @media screen and (max-width: 600px) {
     .column {
       width: 100%;
@@ -130,6 +143,7 @@ padding:inherit;
 
 .footer {
     background-color: #F20530;
+    box-shadow: 0 .25em 1em 0 rgba(0, 0, 0, 0.25);
     color: #ffffff;
     height: 150px;
 }
