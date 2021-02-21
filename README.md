@@ -12,7 +12,8 @@ Creating a personal portfolio for those that are interested in my current and fu
 * Created border box sections for About Me, Hobbies, and Projects sections. 
 * Made sure content was responsive to different screens. 
 * Created root element to created consistent styling within the page. 
-* Displayed projects section with completed projects and futures ones that I am currently working on. 
+* Displayed projects section with completed projects and futures ones that I am currently working on.
+* Created interactive  
 
 ## Usage  
 
@@ -22,7 +23,7 @@ Creating a personal portfolio for those that are interested in my current and fu
 
 * Application URL: (https://etown285.github.io/Steven-Paul-Portfolio/)
 
-* GitHub Repository URL: (*https://github.com/etown285/Steven-Paul-Portfolio)
+* GitHub Repository URL: (https://github.com/etown285/Steven-Paul-Portfolio)
 
 
 Credits

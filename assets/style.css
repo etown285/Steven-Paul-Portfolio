@@ -167,11 +167,12 @@ button {
     padding: 1em;
   }
 
-  /* Clear floats for buttons*/
+  /* Adjusted Opactiy*/
   button:hover { 
     opacity: 60%;
   }
 
+  /*Fixed Alignment for Mobile*/
   footer > a {
     display: inline-block;
     margin-bottom: 4px;
