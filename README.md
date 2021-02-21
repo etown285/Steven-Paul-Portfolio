@@ -19,7 +19,7 @@ Creating a personal portfolio for those that are interested in my current and fu
 
 ![Screenshot](https://github.com/etown285/Steven-Paul-Portfolio/blob/main/Steven%20Paul%20Portfolio.jpg)
 
-##Links
+## Links
 
 * Application URL: (https://etown285.github.io/Steven-Paul-Portfolio/)
 
