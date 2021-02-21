@@ -60,6 +60,11 @@ nav ul {
     text-decoration: none;
 }
 
+/*Corrected Margin for Smaller Screens*/
+nav > ul > li:not(:last-child){
+  margin-right: 20px;
+}
+
 /*Styled links to remove underline*/
 a {
     text-decoration: none;
@@ -142,7 +147,7 @@ a {
     background-color:  var(--red);
     box-shadow: 0 .25em 1em 0 rgba(0, 0, 0, 0.25);
     color: #ffffff;
-    height: 150px;
+    height: 170px;
     text-align: center;
 }
 
@@ -166,3 +171,8 @@ button {
   button:hover { 
     opacity: 60%;
   }
+
+  footer > a {
+    display: inline-block;
+    margin-bottom: 4px;
+}
