@@ -9,11 +9,13 @@ Creating a personal portfolio for those that are interested in my current and fu
 * Created header with headshot and professional description
 * Made sure to use Semantic HTML and image tags with proper descriptions to follow ADA complience. 
 * Created Navigation Bar with current sections: About Me, Projects, Hobbies, Contact. 
+* Nav bar is linked to each section. 
 * Created border box sections for About Me, Hobbies, and Projects sections. 
 * Made sure content was responsive to different screens. 
 * Created root element to created consistent styling within the page. 
 * Displayed projects section with completed projects and futures ones that I am currently working on.
-* Created interactive  
+* Created interactive buttons with different hover settings. 
+* Created footer with contact information and links to Linked, Email, Github, and Stack Overflow. 
 
 ## Usage  
 
