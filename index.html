@@ -8,10 +8,12 @@
     <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
+  <!--Created header with name and title-->
     <header> 
         <h1 class='topheading'>Steven Paul</h1>
         <p class='intro'>Aspiring Web Developer and Economic Development Professional</p>
     </header>
+  <!--Created navigation bar with aboutme, hobbies, projects, and contact navigation bar links to each section-->
         <nav>
             <ul>
                 <li><a href="#aboutme" class="aboutme">About Me</a></li>
@@ -20,14 +22,16 @@
                 <li><a href="#contact" class="contact">Contact Me</a></li>
             </ul>
         </nav>
+  <!--Created each section with border box to organize them and added image tags-->
         <section>
             <article class="articleborder" id="aboutme">
                 <h2>About Me</h2>
                 <img src="assets\Steven Paul.jpg" alt="Profile Picture" title="Profile Picture" >
-                <p class="abouttext">I’m an economic development executive with expertise in marketing, strategic planning, team leadership, and community relations. Over the course of my career, I’ve attracted, retained, and expanded investment in both urban and rural settings, while preserving local historic heritage. I am especially adept at driving growth by managing granstmanship activities, cultivating high profile sponsorships, and building impactful public-private partnerships. I continue to evolve my skillset through advanced professional studies, including certifications from Wharton and the International Economic Development Council.<p>
+                <p class="abouttext">I’m an economic development executive with expertise in marketing, strategic planning, team leadership, and community relations. Over the course of my career, I’ve attracted, retained, and expanded investment in both urban and rural settings while preserving local historic heritage. I am especially adept at driving growth by managing grantsmanship activities, cultivating high-profile sponsorships, and building impactful public-private partnerships. I continue to evolve my skillset through advanced professional studies, including certifications from Wharton and the International Economic Development Council. I am currently attending Rutgers Coding Bootcamp with the aspiration of becoming a web developer. <p>
             </article>
             <article class="articleborder" id="hobbies">
                 <h2>Hobbies</h2>
+                <p>I am an avid combat sports fan, mostly focused on BJJ and wrestling. I love doing things in the outdoors, including walking and hiking. My wife and I also love cooking and try to use all ingredients that we grow from our garden and greenhouse or get from local farmers and suppliers. I enjoy e-sports as well and love the games Overwatch, Smite, and Rainbow Six Siege. In Overwatch, I main Reinhardt, and Orisa and always looking for new people to play!</p>
             </article>
             <article class="articleborder"id="projects">
                 <h2>My Projects</h2>
@@ -37,6 +41,7 @@
                       <h3>Code Refractor</h3>
                         <p> Fixed a sites HTML to follow the Americans with Disabilities Act accessibility guidelines. I have fixed the code to include semantic HTML elements and tags and organized the site's structure.</p>
                         <div class="row">
+                          <!--Seperated the classes because the interior of the box has difrent styling-->
                             <div class="column">
                               <div class="content">
                                 <a href="https://github.com/etown285"><img src="assets\Flooring.jpg" alt="Flooring Image" title="Flooring Image" style="width:100%"></a>
@@ -64,8 +69,13 @@
                 </article>
             </article>
         </section>
+        <!--Created buttons linked to email and social media contacts-->
     <footer class="footer" id="contact">
         <h2>Contact Me</h2>
+        <a href="mailto:sjpaul285@outlook.com"><button type="button">Email Me!</button></a>
+        <a href="https://github.com/etown285"><button type="button">Github</button></a>
+        <a href="https://www.linkedin.com/in/steven-paul-bb1564a2/"><button type="button">LinkedIn</button></a>
+        <a href="https://stackoverflow.com/users/15141848/sjpaul285?tab=profile"><button type="button">StackOverflow</button></a>
     </footer>
 </body>
 </html>
