@@ -76,7 +76,7 @@ a {
     border: .25em solid var(--lightblue);
     background-color: white;
     margin: 1em 1em 1em 1em;
-    padding:inherit;
+    padding: 2em;
     font-size: 1.2em;
     box-shadow: 0 .25em 1em 0 rgba(0, 0, 0, 0.25);
 }
@@ -164,7 +164,7 @@ button {
     align-items: center;
     justify-content: space-between;
     box-shadow: 0 .25em 1em 0 rgba(0, 0, 0, 0.25);
-    padding: 1em;
+    padding: .4em;
   }
 
   /* Adjusted Opactiy*/
