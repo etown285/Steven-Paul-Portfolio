@@ -8,3 +8,4 @@ Creating a personal portfolio for those that are interested in my current and fu
 
 * Created header with headshot and professtional description
 * Created Navigation Bar with current sections: About Me, Projects, Hobbies, Contact 
+* Created border box sections for About Me, Hobbies, and Projects sections. 
